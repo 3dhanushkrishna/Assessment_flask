@@ -12,9 +12,7 @@
         <div class="row">
           <div class="col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
           
-        
-           
-
+   <form action="/register" method="post">
     <table class="table">
         <tr>
             <td>Name</td>
@@ -34,7 +32,7 @@
         </tr>
         <tr>
             <td>Date of Birth</td>
-            <td><input type="text" name="dob"  class="from-control"></td>
+            <td><input type="date" name="dob"  class="from-control"></td>
         </tr>
         <tr>
             <td>Semester</td>
@@ -42,15 +40,15 @@
         </tr>
         <tr>
             <td>password</td>
-            <td><input type="text" name="password" class="form-control"></td>
+            <td><input type="password" name="password" class="form-control"></td>
         </tr>
         <tr>
             <td>Confirm password</td>
-            <td><input type="text" name="confirm_password" class="form-control"></td>
+            <td><input type="password" name="confirm_password" class="form-control"></td>
         </tr>
         <tr>
             <td></td>
-            <td><button name="register" class="btn btn-success">Register</button></td>
+            <td><button name="register" name="submit" class="btn btn-success">Register</button></td>
         </tr>
         <tr>
             <td></td>
@@ -59,6 +57,7 @@
 
 
     </table>   
+   </form>
           </div>
         </div>
     </div>
